@@ -12,11 +12,18 @@ Compléter les quelques exercices suivants en modifiant le code de [exercice.py]
 2. En reprenant le 5e exercice du chapitre 6 sur les fréquences de lettres dans une phrase, écrivez un programme qui trie les lettres à partir du dictionnaire et qui retourne la lettre avec la fréquence la plus haute, en utilisant une fonction lambda.
 3. En utilisant la librairie « Turtle », dessinez un arbre en utilisant la récursivité.
     Ressources : https://docs.python.org/3.3/library/turtle.html
+   
+   ![alt text](tree.png)
 5. Un programme principal saisit une chaîne d'ADN valide et une séquence d'ADN valide (valide signifie qu'elles ne sont pas vides et sont formées exclusivement d'une combinaison arbitraire de "a", "t", "g" ou "c"). 
+    
     a) Écrire une fonction valide qui renvoie vrai si la saisie est valide, faux sinon.
+    
     b) Écrire une fonction saisie qui effectue une saisie valide et renvoie la valeur saisie sous forme d'une chaîne de caractères.
+    
     c) Écrire une fonction proportion qui reçoit deux arguments, la chaîne et la séquence et qui retourne la proportion de séquence dans la chaîne.
+
 Le programme principal appelle la fonction saisie pour la chaîne et pour la séquence et affiche le résultat.
+
 Exemple d’affichage:
 ```python
 chaîne : attgcaatggtggtacatg
