@@ -24,7 +24,3 @@ Il y a 10.53 % de "ca".
 ```
 
 
-### À compléter
-Vous devez compléter les fonctions suivantes du fichier [exercice.py](exercice.py).
-
-
