@@ -1,6 +1,6 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod-redirect-0.herokuapp.com/)
 
-# Exercices en vrac (chapitre 6.2)
+# Exercices en vrac (chapitre 7)
 
 Avant de commencer, consultez les instructions à suivre dans [instructions.md](instructions.md)
 
@@ -8,34 +8,23 @@ Avant de commencer, consultez les instructions à suivre dans [instructions.md](
 
 Compléter les quelques exercices suivants en modifiant le code de [exercice.py](exercice.py):
 
-1. Écrire un programme qui transforme une liste en dictionnaire. Les éléments de la liste deviennent les clés du dictionnaire et les indexes de chaque élément deviennent la valeur associée à chaque clé.
-2. Écrire un programme qui trouve la valeur hex de chaque couleur d'une liste et crée une liste de tupple où le premier élément est le nom de la couleur et le deuxième est la valeur hex.
-3. Écrire un programme qui crée une listes des 10 000 premiers entiers positif (0 inclu), sauf pour les entiers de 15 à 350.
-4. Écrire un programme qui calcule l'erreur quadratique moyen pour différents modèles AI. Un dictionnaire des résultats de chaque modèle est passé en paramètre. Pour chaque modèle, une liste contenant des tuples (valeur_réelle, valeur_prédite) est fournie.
+1. Écrire une fonction qui retourne le volume et la masse d’un ellipsoïde grâce à un tuple. Les paramètres sont les trois demi-axes et la masse volumique. On donnera à ces quatre paramètres des valeurs par défaut. On donne : 𝑉=4/3 𝜋𝑎𝑏𝑐. Tester cette fonction par des appels avec différents nombres d’arguments.
+2. En reprenant le 5e exercice du chapitre 6 sur les fréquences de lettres dans une phrase, écrivez un programme qui trie les lettres à partir du dictionnaire et qui retourne la lettre avec la fréquence la plus haute, en utilisant une fonction lambda.
+3. En utilisant la librairie « Turtle », dessinez un arbre en utilisant la récursivité.Ressources : https://docs.python.org/3.3/library/turtle.html
+5. Un programme principal saisit une chaîne d'ADN valide et une séquence d'ADN valide (valide signifie qu'elles ne sont pas vides et sont formées exclusivement d'une combinaison arbitraire de "a", "t", "g" ou "c"). 
+    a) Écrire une fonction valide qui renvoie vrai si la saisie est valide, faux sinon.
+    b) Écrire une fonction saisie qui effectue une saisie valide et renvoie la valeur saisie sous forme d'une chaîne de caractères.
+    c) Écrire une fonction proportion qui reçoit deux arguments, la chaîne et la séquence et qui retourne la proportion de séquence dans la chaîne.
+Le programme principal appelle la fonction saisie pour la chaîne et pour la séquence et affiche le résultat.
+Exemple d’affichage:
+```python
+chaîne : attgcaatggtggtacatg
+séquence : ca
+Il y a 10.53 % de "ca".
+```
+
 
 ### À compléter
 Vous devez compléter les fonctions suivantes du fichier [exercice.py](exercice.py).
 
-```python
-def list_to_dict(some_list: list) -> dict:
-    # TODO: Transformer la liste en dictionnaire, les éléments de la liste deviennent les clés et leur index deviennent les valeurs
-    
-    return {}
 
-
-def color_name_to_hex(colors: list) -> list:
-    # TODO: Trouver la valeur hex de chaque couleur dans la liste et créer une liste de tupple où le premier élément est le nom de la couleur et le deuxième est la valeur hex
-
-    return []
-
-
-def create_list() -> list:
-    # TODO: Créer une liste des 10 000 premiers entiers positif, sauf pour les entiers de 15 à 350
-
-    return []
-    
-def compute_mse(model_dict: dict) -> dict:
-    # TODO: Calculer l'erreur quadratique moyen pour chaque modèle. Retourner un dictionnaire contenant les MSE.
-
-    return {}
-```
